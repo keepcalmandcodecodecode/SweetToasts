@@ -1,0 +1,6 @@
+framework module Pods_SweetToasts_Tests {
+  umbrella header "Pods-SweetToasts_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

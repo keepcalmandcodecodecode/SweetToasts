@@ -1,0 +1,6 @@
+framework module SweetToasts {
+  umbrella header "SweetToasts-umbrella.h"
+
+  export *
+  module * { export * }
+}

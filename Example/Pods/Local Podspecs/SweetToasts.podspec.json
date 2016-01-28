@@ -1,0 +1,31 @@
+{
+  "name": "SweetToasts",
+  "version": "0.1.0",
+  "summary": "A short description of SweetToasts.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SweetToasts",
+  "license": "MIT",
+  "authors": {
+    "keepcalmandcodecodecode": "easy.dev@yandex.ru"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SweetToasts.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SweetToasts": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "UIViewSweets": [
+
+    ]
+  }
+}

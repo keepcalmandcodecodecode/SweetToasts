@@ -1,0 +1,6 @@
+framework module UIViewSweets {
+  umbrella header "UIViewSweets-umbrella.h"
+
+  export *
+  module * { export * }
+}
