@@ -45,6 +45,7 @@
 		83F280CAB729CAD6DAC36AFF4B5025FA /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AE11C2288A5F043B32CEF699DE323 /* ExampleMetadata.swift */; };
 		86D7B753DF3850CBC8461E41DFF04F7F /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = F4777F8D25C0D7ED7DE9BA55D63DA616 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8B346B608FACB5BE1D7550E6E611EA1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F643A91C40FAB8FF80C70A22289031 /* Foundation.framework */; };
+		8C85F6BC1C5A723100269AC0 /* SweetToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85F6BB1C5A723100269AC0 /* SweetToast.swift */; };
 		8D0BF52FF564A170A3D1DE28C27B233E /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E159EB3909055014D48C0B06D3C327 /* Poll.swift */; };
 		8E5A674AA9014F43CC111459B589DE51 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF948EB836365DDF3489D7184401CA75 /* Closures.swift */; };
 		9187EEC2982DB82AD8D3A7001AA647D6 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = B088B0AA1420FCF1F9F6C5A544E2DA83 /* NMBExceptionCapture.m */; };
@@ -91,7 +92,6 @@
 		E4FED65F8BED4A342E0AF7DB581CD2FA /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3FCD064139CF368AAF4CFD73284612 /* QuickConfiguration.m */; };
 		E6E7B15FAD6C56681511813DB2666478 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA05BDFEF11D200C02349C710095B8F /* AssertionRecorder.swift */; };
 		E7A6BA306FF93833E07A229FD51030D7 /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = B10054C2F4CDE4616BB40F5CCF3F300A /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE021ED3CCB48EB3138305EF96A20147 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22749D2930A75D0D6B7788CD18EED6B9 /* ReplaceMe.swift */; };
 		EF0CE286E67E470E1ECBCA7017427906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F643A91C40FAB8FF80C70A22289031 /* Foundation.framework */; };
 		F10FD3129985704FA1610F84FB98EDF5 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E350245AC339B95B6E2BDC98603DEC3 /* Stringers.swift */; };
 		F1D4A8A1FC68EFA7F45945908D70A352 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C5F085A0C34D1A0499E9B4D7E4CF52 /* BeNil.swift */; };
@@ -190,7 +190,6 @@
 		1F392C6498E477F4619D7AF60CB18FC1 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Quick/QuickSpec.m; sourceTree = "<group>"; };
 		1F6AEA56133F21FF143AFA40C7ED9412 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
 		22599A3E662FA8F2B3028D776C4FEB5B /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Nimble/DSL.swift; sourceTree = "<group>"; };
-		22749D2930A75D0D6B7788CD18EED6B9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		23AA5E2EE3B0FEB9FFB3011CCCBBE366 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Quick/Callsite.swift; sourceTree = "<group>"; };
 		24983558A7602C1501A4FB15C8EB35CA /* ObjCExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCExpectation.swift; path = Nimble/ObjCExpectation.swift; sourceTree = "<group>"; };
 		25AFEAEBACA1D5A7C18EA9D1AC80458F /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
@@ -238,6 +237,7 @@
 		8A951DC741D527ABC55B905AA998224A /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		8B619CC0797B3EF690A001DCD9664176 /* Pods-SweetToasts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetToasts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8BA4669421EB1FC261F82FA27E1050EF /* SweetToasts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweetToasts-dummy.m"; sourceTree = "<group>"; };
+		8C85F6BB1C5A723100269AC0 /* SweetToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetToast.swift; sourceTree = "<group>"; };
 		8D85DEC5EF020D052699248D18D2C90A /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		90022340075DB16B16BFDD27C7B02E0B /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Quick/ExampleGroup.swift; sourceTree = "<group>"; };
 		907A0818988ACD9FFE718FDC1C224FF1 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -485,7 +485,7 @@
 		81703253D54BCDDD3246A6026420BDB2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				22749D2930A75D0D6B7788CD18EED6B9 /* ReplaceMe.swift */,
+				8C85F6BB1C5A723100269AC0 /* SweetToast.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -864,7 +864,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -929,7 +929,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE021ED3CCB48EB3138305EF96A20147 /* ReplaceMe.swift in Sources */,
+				8C85F6BC1C5A723100269AC0 /* SweetToast.swift in Sources */,
 				9AA20F82CBCAC6649599625D3F4D9FF6 /* SweetToasts-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1226,6 +1226,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 313873AC97DFC113606232073E28BC05 /* SweetToasts.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1377,6 +1378,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 313873AC97DFC113606232073E28BC05 /* SweetToasts.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
