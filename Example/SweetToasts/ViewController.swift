@@ -28,7 +28,10 @@ class ViewController: UIViewController {
         toast.text = "Example"
         toast.frame = CGRectMake(0,0,100,80)
         toast.center = self.view.center
-        toast.withDuration(.Short).show(self.view)
+        toast.withDuration(.Short)
+            .withBackgroundColor(UIColor.lightGrayColor())
+            .withTextColor(UIColor.darkTextColor())
+            .show(self.view)
     }
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
