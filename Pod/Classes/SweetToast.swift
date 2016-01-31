@@ -14,12 +14,24 @@ public enum ToastDuration:NSTimeInterval{
 public class SweetToast:UILabel{
     var duration:ToastDuration = .Short
     public func withDuration(duration:ToastDuration)->SweetToast{
+        self.duration = duration
         return self
+    }
+    public func withTextColor(textColor:UIColor)->SweetToast{
+        self.textColor = textColor
+        return self
+    }
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        self.backgroundColor = UIColor.blackColor()
+        self.textColor = UIColor.whiteColor()
+    }
+
+    required public init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     public func show(view:UIView){
         view.addSubview(self)
-        self.backgroundColor = UIColor.blackColor()
-        self.textColor = UIColor.whiteColor()
         self.dismissAnimated()
     }
     func dismissAnimated(){
