@@ -25,6 +25,10 @@ public class SweetToast:UILabel{
         self.backgroundColor = backgroundColor
         return self
     }
+    public func withFont(font:UIFont)->SweetToast{
+        self.font = font
+        return self
+    }
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.blackColor()

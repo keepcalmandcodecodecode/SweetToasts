@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         toast.withDuration(.Short)
             .withBackgroundColor(UIColor.lightGrayColor())
             .withTextColor(UIColor.darkTextColor())
+            .withFont(UIFont.systemFontOfSize(12.0))
             .show(self.view)
     }
     override func viewWillAppear(animated: Bool) {
