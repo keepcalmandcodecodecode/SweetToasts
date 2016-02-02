@@ -25,6 +25,9 @@ public class SweetToast:UILabel{
         self.backgroundColor = backgroundColor
         return self
     }
+    public func withTheme(theme:ToastStyle)->SweetToast{
+        return self
+    }
     public func withFont(font:UIFont)->SweetToast{
         self.font = font
         return self

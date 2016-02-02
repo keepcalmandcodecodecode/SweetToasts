@@ -45,6 +45,7 @@
 		83F280CAB729CAD6DAC36AFF4B5025FA /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AE11C2288A5F043B32CEF699DE323 /* ExampleMetadata.swift */; };
 		86D7B753DF3850CBC8461E41DFF04F7F /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = F4777F8D25C0D7ED7DE9BA55D63DA616 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8B346B608FACB5BE1D7550E6E611EA1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F643A91C40FAB8FF80C70A22289031 /* Foundation.framework */; };
+		8C17B1B31C614C80008090CB /* ToastThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17B1B21C614C80008090CB /* ToastThemes.swift */; };
 		8C85F6BC1C5A723100269AC0 /* SweetToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85F6BB1C5A723100269AC0 /* SweetToast.swift */; };
 		8D0BF52FF564A170A3D1DE28C27B233E /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E159EB3909055014D48C0B06D3C327 /* Poll.swift */; };
 		8E5A674AA9014F43CC111459B589DE51 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF948EB836365DDF3489D7184401CA75 /* Closures.swift */; };
@@ -237,6 +238,7 @@
 		8A951DC741D527ABC55B905AA998224A /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		8B619CC0797B3EF690A001DCD9664176 /* Pods-SweetToasts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetToasts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8BA4669421EB1FC261F82FA27E1050EF /* SweetToasts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweetToasts-dummy.m"; sourceTree = "<group>"; };
+		8C17B1B21C614C80008090CB /* ToastThemes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastThemes.swift; sourceTree = "<group>"; };
 		8C85F6BB1C5A723100269AC0 /* SweetToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetToast.swift; sourceTree = "<group>"; };
 		8D85DEC5EF020D052699248D18D2C90A /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		90022340075DB16B16BFDD27C7B02E0B /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Quick/ExampleGroup.swift; sourceTree = "<group>"; };
@@ -486,6 +488,7 @@
 			isa = PBXGroup;
 			children = (
 				8C85F6BB1C5A723100269AC0 /* SweetToast.swift */,
+				8C17B1B21C614C80008090CB /* ToastThemes.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -930,6 +933,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C85F6BC1C5A723100269AC0 /* SweetToast.swift in Sources */,
+				8C17B1B31C614C80008090CB /* ToastThemes.swift in Sources */,
 				9AA20F82CBCAC6649599625D3F4D9FF6 /* SweetToasts-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
